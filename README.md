@@ -101,41 +101,6 @@ Confusion matrices
 Per-class recall and precision plots
 All plots are saved experiment-wise for reproducibility and comparison.
 
-📁 Project Structure
-Classification_Project/
-│
-├── experiments/
-│   ├── baseline_cnn/
-│   │   ├── history.json
-│   │   └── visualizations/
-│   │       ├── accuracy_curve.png
-│   │       ├── loss_curve.png
-│   │       ├── confusion_matrix.png
-│   │       └── per_class_recall.png
-│   │
-│   ├── efficientnet_b3/
-│   │   ├── stage1_head_training/
-│   │   └── stage2_finetuning/
-│
-├── models/
-│   ├── baseline_cnn.h5
-│   ├── efficientnet_b3_stage1.h5
-│   ├── efficientnet_b3_stage2.keras
-│   └── class_names.json
-│
-├── src/
-│   ├── data/
-│   ├── models/
-│   ├── visualizations/
-│   └── training scripts
-│
-├── streamlit_app/
-│   ├── app.py
-│   ├── utils.py
-│   └── config.py
-│
-└── README.md
-
 🚀 Deployment (Streamlit App)
 A Streamlit-based web application was developed for real-time plant disease classification.
 
